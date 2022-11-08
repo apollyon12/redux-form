@@ -9,7 +9,6 @@ export function valueMock(value: any) {
   return getEvent({ target: { value } })
 }
 
-//changed
 export function dragStartMock(setData: Function) {
   return getEvent({
     dataTransfer: { setData }
